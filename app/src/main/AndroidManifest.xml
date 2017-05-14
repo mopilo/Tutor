@@ -1,0 +1,75 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.vyrenmedia.tutor"
+   >
+
+    <uses-sdk android:minSdkVersion="4" />
+
+
+    <application android:allowBackup="true"
+        android:label="@string/app_name"
+        android:icon="@mipmap/tutor"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".SplashActivity"
+
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity"
+            android:label="Tutor">
+
+        </activity>
+        <activity android:name=".Instruction"
+            android:label="About the App">
+
+        </activity>
+        <activity android:name=".Alphabet"
+            android:label="Alphabets">
+
+        </activity>
+
+        <activity android:name=".Dish"
+            android:label="Dish"></activity>
+
+        <activity android:name=".Greeting"
+            android:label="Greetings"></activity>
+
+        <activity android:name=".Proverbs"
+            android:label="Proverbs"></activity>
+
+        <activity android:name=".Dictionary"
+            android:theme="@android:style/Theme.Holo.Light.DarkActionBar">
+
+
+            <!-- Receives the search request. -->
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+                <!-- No category needed, because the Intent will specify this class component-->
+            </intent-filter>
+
+            <!-- Points to searchable meta data. -->
+            <meta-data android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+
+        </activity>
+
+        <!-- Displays the definition of a word. -->
+        <activity android:name=".WordActivity"
+            android:theme="@android:style/Theme.Holo.Light.DarkActionBar" />
+
+        <!-- Provides search suggestions for words and their definitions. -->
+        <provider android:name=".DictionaryProvider"
+            android:authorities="com.vyrenmedia.tutor.DictionaryProvider" />
+
+        <!-- Points to searchable activity so the whole app can invoke search. -->
+        <meta-data android:name="android.app.default_searchable"
+            android:value=".Dictionary" />
+
+    </application>
+
+</manifest>

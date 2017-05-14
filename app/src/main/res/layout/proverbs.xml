@@ -1,0 +1,563 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:background="#f1f1f1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="1dp"
+        android:gravity="center_vertical"
+        android:id="@+id/top">
+
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+            <TextView
+                android:layout_marginBottom="5dp"
+                android:id="@+id/textx"
+                android:layout_marginLeft="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:clickable="true"
+                android:text="He who eats with his mother will not have to ask for the remainder"
+                android:textSize="20sp"/>
+            <Button
+                android:id="@+id/letter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Maichi da uwabashikuka’nsoodi "
+                android:background="@drawable/button"
+                android:textColor="#ffffff"
+                android:layout_below="@+id/textx"
+                android:layout_centerHorizontal="true"
+                />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="1dp"
+        android:gravity="center_vertical"
+        android:id="@+id/second"
+        android:layout_below="@+id/top">
+
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+            <TextView
+                android:layout_marginLeft="5dp"
+                android:layout_marginBottom="5dp"
+                android:id="@+id/textxx"
+                android:scaleType="fitCenter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:clickable="false"
+                android:text="Water does not get bitter without a cause (There is a reason for everything)"
+                android:textSize="20sp"/>
+            <Button
+                android:id="@+id/letter1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ruwa basu yami banza  "
+                android:background="@drawable/button"
+                android:textColor="#ffffff"
+                android:layout_below="@+id/textxx"
+                android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:background="#f1f1f1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="1dp"
+        android:gravity="center_vertical"
+        android:id="@+id/third"
+        android:layout_below="@+id/second">
+
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+            <TextView
+                android:layout_marginLeft="5dp"
+                android:layout_marginBottom="5dp"
+                android:id="@+id/textx1"
+                android:scaleType="fitCenter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:clickable="false"
+                android:text="The blind man lacks eyes, he says eyes stink"
+                android:textSize="20sp"/>
+            <Button
+                android:id="@+id/letter2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Makafor ya rasa ido, ya che ido na wari   "
+                android:background="@drawable/button"
+                android:textColor="#ffffff"
+                android:layout_below="@+id/textx1"
+                android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="1dp"
+        android:gravity="center_vertical"
+        android:id="@+id/fouth"
+        android:layout_below="@+id/third">
+
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+            <TextView
+                android:layout_marginLeft="5dp"
+                android:layout_marginBottom="5dp"
+                android:id="@+id/textx2"
+                android:scaleType="fitCenter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:clickable="false"
+                android:text="Even if water is spilt, as long as the jar is not broken, no harm. I don’t cry over spilt milk that can be remedied"
+                android:textSize="20sp"/>
+            <Button
+                android:id="@+id/letter3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Idan ruwa ya zubar, ya bar tulu, yayi keau   "
+                android:background="@drawable/button"
+                android:textColor="#ffffff"
+                android:layout_below="@+id/textx2"
+                android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:background="#f1f1f1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="1dp"
+        android:gravity="center_vertical"
+        android:id="@+id/fifth"
+        android:layout_below="@+id/fouth">
+
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+            <TextView
+                android:layout_marginLeft="5dp"
+                android:layout_marginBottom="5dp"
+                android:id="@+id/textx3"
+                android:scaleType="fitCenter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:clickable="false"
+                android:text="The moon is not seen because of great statute (it is not be remit of yours that you have done that, anyone can do it)"
+                android:textSize="20sp"/>
+            <Button
+                android:id="@+id/letter4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ba domin tsawo akanga wata ba   "
+                android:background="@drawable/button"
+                android:textColor="#ffffff"
+                android:layout_below="@+id/textx3"
+                android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="1dp"
+            android:gravity="center_vertical"
+            android:id="@+id/sixth"
+            android:layout_below="@+id/fifth">
+
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+                <TextView
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:id="@+id/textx4"
+                    android:scaleType="fitCenter"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:clickable="false"
+                    android:text="He who asks does not go wrong, but his secret is dug up"
+                    android:textSize="20sp"/>
+                <Button
+                    android:id="@+id/letter5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mai tambaya bashi pata, sai dai asheerinsa ka tonoa  "
+                    android:background="@drawable/button"
+                    android:textColor="#ffffff"
+                    android:layout_below="@+id/textx4"
+                    android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:background="#f1f1f1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="1dp"
+            android:gravity="center_vertical"
+            android:id="@+id/seven"
+            android:layout_below="@+id/sixth">
+
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+                <TextView
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:id="@+id/textx5"
+                    android:scaleType="fitCenter"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:clickable="false"
+                    android:text="The tortoise wishes to fight with his fit, but he has no fingers."
+                    android:textSize="20sp"/>
+                <Button
+                    android:id="@+id/letter6"
+                    android:background="@drawable/button"
+                    android:textColor="#ffffff"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Kunkuru ya so dambe, bashi da yatsa  "
+                    android:layout_below="@+id/textx5"
+                    android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="1dp"
+            android:gravity="center_vertical"
+            android:id="@+id/eight"
+            android:layout_below="@+id/seven">
+
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+                <TextView
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:id="@+id/textx6"
+                    android:scaleType="fitCenter"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:clickable="false"
+                    android:text="Some birds avoid water. The duck searches for it (Everyone to his own taste)"
+                    android:textSize="20sp"/>
+                <Button
+                    android:id="@+id/letter7"
+                    android:background="@drawable/button"
+                    android:textColor="#ffffff"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Wani tsuntsu yake gudun ruwa,agwagwa ruwa ta ke nema"
+                    android:layout_below="@+id/textx6"
+                    android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:background="#f1f1f1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="1dp"
+            android:gravity="center_vertical"
+            android:id="@+id/nine"
+            android:layout_below="@+id/eight">
+
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+                <TextView
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:id="@+id/textx7"
+                    android:scaleType="fitCenter"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:clickable="false"
+                    android:text="It is easy enough to find food, but hard to get away to a place where you can eat it in peace (your friends and relatives always want to share your goods)"
+                    android:textSize="20sp"/>
+                <Button
+                    android:id="@+id/letter8"
+                    android:background="@drawable/button"
+                    android:textColor="#ffffff"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ba samun abinchi ke da wuya, wurin da zaka chishi ke da wuya  "
+                    android:layout_below="@+id/textx7"
+                    android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout
+
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="1dp"
+            android:gravity="center_vertical"
+            android:id="@+id/ten"
+            android:layout_below="@+id/nine">
+
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+                <TextView
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:id="@+id/textx8"
+                    android:scaleType="fitCenter"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:clickable="false"
+                    android:text="Buckling will not separate a donkey and its load (Don’t kick against the pricks)"
+                    android:textSize="20sp"/>
+                <Button
+                    android:id="@+id/letter9"
+                    android:background="@drawable/button"
+                    android:textColor="#ffffff"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Buzaare bashi raba jaki da kaya   "
+                    android:layout_below="@+id/textx8"
+                    android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:background="#f1f1f1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="1dp"
+            android:gravity="center_vertical"
+            android:id="@+id/eleven"
+            android:layout_below="@+id/ten">
+
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+                <TextView
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:id="@+id/textx9"
+                    android:scaleType="fitCenter"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:clickable="false"
+                    android:text="A man who is carried on the neck does not notice the distance of a town"
+                    android:textSize="20sp"/>
+                <Button
+                    android:id="@+id/letter10"
+                    android:background="@drawable/button"
+                    android:textColor="#ffffff"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Dauka wuya baya san gari da nesa   "
+                    android:layout_below="@+id/textx9"
+                    android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="1dp"
+            android:gravity="center_vertical"
+            android:id="@+id/twelve"
+            android:layout_below="@+id/eleven">
+
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+                <TextView
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:id="@+id/textx10"
+                    android:scaleType="fitCenter"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:clickable="false"
+                    android:text="The Nupes are like low dung. They are deceitful"
+                    android:textSize="20sp"/>
+                <Button
+                    android:id="@+id/letter11"
+                    android:background="@drawable/button"
+                    android:textColor="#ffffff"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="	Na Ma’azu kashin shanu   "
+                    android:layout_below="@+id/textx10"
+                    android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:background="#f1f1f1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="1dp"
+            android:gravity="center_vertical"
+            android:id="@+id/thirteen"
+            android:layout_below="@+id/twelve">
+
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+                <TextView
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:id="@+id/textx11"
+                    android:scaleType="fitCenter"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:clickable="false"
+                    android:text="Beware of a blind man who says “let us play at stone throwing” for he must likely has a stone under his foot"
+                    android:textSize="20sp"/>
+                <Button
+                    android:id="@+id/letter12"
+                    android:background="@drawable/button"
+                    android:textColor="#ffffff"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="	Idan kaji makafo yace “zo muyi was an jifa” ya taka duchi ne    "
+                    android:layout_below="@+id/textx11"
+                    android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="1dp"
+            android:gravity="center_vertical"
+            android:id="@+id/fourteen"
+            android:layout_below="@+id/thirteen">
+
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+                <TextView
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:id="@+id/textx14"
+                    android:scaleType="fitCenter"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:clickable="false"
+                    android:text="If the bottle is shaking it will not be filled (a rolling stone gathers no moss)"
+                    android:textSize="20sp"/>
+                <Button
+                    android:id="@+id/letter13"
+                    android:background="@drawable/button"
+                    android:textColor="#ffffff"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="	Idan gora tana rawwah, ba chikka ba ne "
+                    android:layout_below="@+id/textx14"
+                    android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+        </LinearLayout>
+
+
+
+        <LinearLayout
+
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="1dp"
+            android:gravity="center_vertical"
+            android:id="@+id/sixteen"
+            android:layout_below="@+id/fourteen">
+
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+                <TextView
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:id="@+id/textx15"
+                    android:scaleType="fitCenter"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:clickable="false"
+                    android:text="However long the neck is, the head is above it)"
+                    android:textSize="20sp"/>
+                <Button
+                    android:id="@+id/letter16"
+                    android:background="@drawable/button"
+                    android:textColor="#ffffff"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="	Komintsawonwuya, kai bissa  "
+                    android:layout_below="@+id/textx15"
+                    android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+</ScrollView>

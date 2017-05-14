@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:fillViewport="false">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="1dp"
+        android:gravity="center_vertical"
+        android:id="@+id/top">
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginLeft="30dp" >
+
+            <ImageButton
+                android:id="@+id/letter"
+                android:src="@drawable/kilishi"
+                android:layout_width="130dp"
+                android:layout_height="120dp"
+                android:layout_marginTop="30dp"
+                android:layout_row="0"
+                android:layout_column="0"
+                android:scaleType="fitCenter"
+                android:background="@null"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/letter"
+                android:layout_centerInParent="true"
+                android:clickable="false"
+                android:text="Kilishi"
+                android:textSize="20sp"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginLeft="60dp">
+
+            <ImageButton
+                android:id="@+id/dish"
+                android:src="@drawable/alele"
+                android:layout_height="120dp"
+                android:layout_width="130dp"
+                android:layout_marginTop="30dp"
+                android:background="@null"
+                android:scaleType="fitCenter"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/dish"
+                android:layout_centerInParent="true"
+                android:clickable="false"
+                android:text="Alele"
+                android:textSize="20sp"/>
+        </RelativeLayout>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="1dp"
+        android:gravity="center_vertical"
+        android:id="@+id/middle"
+        android:layout_below="@+id/top">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginLeft="30dp" >
+
+            <ImageButton
+                android:id="@+id/greet"
+                android:src="@drawable/danwake"
+                android:layout_width="130dp"
+                android:layout_height="120dp"
+                android:layout_marginTop="30dp"
+                android:background="@null"
+                android:scaleType="fitCenter"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/greet"
+                android:layout_centerInParent="true"
+                android:clickable="false"
+                android:text="Danwake"
+                android:textSize="20sp"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginLeft="60dp">
+
+            <ImageButton
+                android:id="@+id/poem"
+                android:src="@drawable/suya"
+                android:layout_height="120dp"
+                android:layout_width="130dp"
+                android:layout_marginTop="30dp"
+                android:background="@null"
+                android:scaleType="fitCenter"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/poem"
+                android:layout_centerInParent="true"
+                android:clickable="false"
+                android:text="Suya"
+                android:textSize="20sp"/>
+        </RelativeLayout>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:id="@+id/third"
+        android:layout_below="@+id/middle">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginLeft="30dp" >
+
+            <ImageButton
+                android:id="@+id/dict"
+                android:src="@drawable/koko"
+                android:layout_width="130dp"
+                android:layout_height="120dp"
+                android:layout_marginTop="30dp"
+                android:background="@null"
+                android:scaleType="fitCenter"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/dict"
+                android:layout_centerInParent="true"
+                android:clickable="false"
+                android:text="Koko"
+                android:textSize="20sp"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginLeft="60dp" >
+
+            <ImageButton
+                android:id="@+id/proverb"
+                android:src="@drawable/kosai"
+                android:layout_width="130dp"
+                android:layout_height="120dp"
+                android:layout_marginTop="30dp"
+                android:background="@null"
+                android:scaleType="fitCenter"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/proverb"
+                android:layout_centerInParent="true"
+                android:clickable="false"
+                android:text="kosai"
+                android:textSize="20sp"/>
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/fouth"
+        android:gravity="center_vertical"
+        android:layout_below="@+id/third">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginLeft="30dp" >
+
+            <ImageButton
+                android:id="@+id/masa"
+                android:src="@drawable/masa"
+                android:layout_width="130dp"
+                android:layout_height="120dp"
+                android:layout_marginTop="30dp"
+                android:background="@null"
+                android:scaleType="fitCenter"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/masa"
+                android:layout_centerInParent="true"
+                android:clickable="false"
+                android:text="Masa"
+                android:textSize="20sp"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginLeft="60dp" >
+
+            <ImageButton
+                android:id="@+id/masara"
+                android:src="@drawable/masara"
+                android:layout_width="130dp"
+                android:layout_height="120dp"
+                android:layout_marginTop="30dp"
+                android:background="@null"
+                android:scaleType="fitCenter"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/masara"
+                android:layout_centerInParent="true"
+                android:clickable="false"
+                android:text="Masara"
+                android:textSize="20sp"/>
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_below="@+id/fifth"
+        >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginLeft="30dp" >
+
+            <ImageButton
+                android:id="@+id/fakasua"
+                android:src="@drawable/fakasua"
+                android:layout_width="130dp"
+                android:layout_height="120dp"
+                android:layout_marginTop="30dp"
+                android:background="@null"
+                android:scaleType="fitCenter"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/fakasua"
+                android:layout_centerInParent="true"
+                android:clickable="false"
+                android:text=" Fankasau"
+                android:textSize="20sp"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginLeft="60dp" >
+
+            <ImageButton
+                android:id="@+id/zogale"
+                android:src="@drawable/zugela"
+                android:layout_width="130dp"
+                android:layout_height="120dp"
+                android:layout_marginTop="30dp"
+                android:background="@null"
+                android:scaleType="fitCenter"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/zogale"
+                android:layout_centerInParent="true"
+                android:clickable="false"
+                android:text="Zogale"
+                android:textSize="20sp"/>
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_below="@+id/fouth"
+        android:id="@+id/fifth">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginLeft="30dp" >
+
+            <ImageButton
+                android:id="@+id/nama"
+                android:src="@drawable/nama"
+                android:layout_width="130dp"
+                android:layout_height="120dp"
+                android:layout_marginTop="30dp"
+                android:background="@null"
+                android:scaleType="fitCenter"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/nama"
+                android:layout_centerInParent="true"
+                android:clickable="false"
+                android:text="Danbun Nama"
+                android:textSize="20sp"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginLeft="60dp" >
+
+            <ImageButton
+                android:id="@+id/kuka"
+                android:src="@drawable/kuka"
+                android:layout_width="130dp"
+                android:layout_height="120dp"
+                android:layout_marginTop="30dp"
+                android:background="@null"
+                android:scaleType="fitCenter"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/kuka"
+                android:layout_centerInParent="true"
+                android:clickable="false"
+                android:text="Tuwo da miyan kuka"
+                android:textSize="20sp"/>
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>
+</ScrollView>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="21sp"
+        android:layout_margin="20dp"
+        android:text="This application is designed to  tutor hausa language and its also voice enabled. It is designed to enhance easy and efficient learning of hausa language  on the go."/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="What would you like to learn"
+        android:textSize="20sp"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="20dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:textSize="18sp"
+        android:text="Alphabet?"
+        android:layout_marginBottom="15sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:textSize="18sp"
+        android:text="Dishes?"
+        android:layout_marginBottom="15sp"
+        android:id="@+id/textView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:textSize="18sp"
+        android:text="Greetings?"
+        android:layout_marginBottom="15sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:textSize="18sp"
+        android:text="Proverbs?"
+        android:layout_marginBottom="15sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:textSize="18sp"
+        android:text="Dictionary Words?"
+        android:layout_marginBottom="45sp"/>
+    <Button
+        android:id="@+id/instruction"
+        android:layout_width="wrap_content"
+        android:text=" Click to Start"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"/>
+</LinearLayout>
